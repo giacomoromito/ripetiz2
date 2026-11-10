@@ -1,25 +1,3 @@
-<?php
-if(isset($_GET["options"])){
-    print_r($_GET["options"]);
-    //se l'array options è definito posso scorrerlo;
-    //con un for oppure
-    //con un foreach
-    //foreach($array as $element){
-    // . . . qui $element è l'elemento i-esimo dell'array
-    // }
-    //foreach($_GET())
-}   
-
-    //
-    if(in_array("absolute", $:GET["options"])) {
-        //allora calcola il valore assoluto
-
-    }
-
-
-    //qui controllo se l'utente ha selezionato ANCHE square SENZA else if ma solo con if()
-?>
-
 
 
 
@@ -35,7 +13,7 @@ if(isset($_GET["options"])){
 </head>
 <body>
     <form actions="">
-
+    <fieldset>
         <h1>Calcolatrice</h1>
 
         <label for="a">A</label>
@@ -44,6 +22,7 @@ if(isset($_GET["options"])){
         <label for="b">B</label>
         <input id="b" type="text" name="b" value>
         <br><br>
+    </fieldset>
 
         <h2>OPERAZIONI</h2>
         <div>
